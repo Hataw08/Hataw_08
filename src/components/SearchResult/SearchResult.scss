@@ -1,0 +1,28 @@
+#search_result {
+    padding: 0 20px;
+    color: #fff;
+  
+    p {
+      margin-top: 12px;
+      padding-left: 12px;
+      color: red;
+      font-size: 20px;
+    }
+  
+    .result_list_container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      justify-content: space-between;
+      gap: 30px 20px;
+      padding: 24px 20px;
+      transition: all 0.3s linear;
+  
+      &::before,
+      &::after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+    }
+  }
+  
