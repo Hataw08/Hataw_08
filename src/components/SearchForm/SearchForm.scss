@@ -1,0 +1,48 @@
+#search_form {
+    padding: 100px 0;
+    
+    form {
+      background-color: #fff;
+      width: 500px;
+      margin: 0 auto;
+      
+      .form_group {
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 4px;
+      }
+      
+      .search_icon {
+        height: 100%;
+        display: flex;
+        cursor: pointer;
+        padding: 16px 12px;
+        transition: all 0.4s linear;
+        
+        svg {
+          width: 24px;
+        }
+        
+        &:hover {
+          background-color: #9e9e9e;
+          transition: all;
+        }
+      }
+      
+      .form_control {
+        padding: 16px 12px;
+        display: block;
+        border: none;
+        width: 100%;
+        font-size: 16px;
+        font-weight: 500;
+        
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+  }
+  
